@@ -1,0 +1,43 @@
+================================================================
+
+Thanks For Using Windows RDP On Azure SandBox Script:
+
+YouTube : https://youtube.com/channel/UCEiS0m5EBOlnTXLRBHM-L-A
+
+Facebook : https://www.facebook.com/profile.php?id=100076380567079
+
+Discord: https://discord.gg/FuR7DprQ
+
+================================================================
+
+ Limitations:
+ 
+- Added alternative internet server (can up to 40 MBPS with IDM) auto-connect if main internet server fails to connect (you can use download accelerator software: IDM, FDM,... on server 2).
+
+- The network speed maximum is about 100 MBPS. Don't try to install VPN Sofware on VM (this will not work, exclude VPN extension on browser can be used).
+
+- If the main network disconnect or not work, wait until an alternative internet server setup dialog appears (about 60s) or you must go to azure portal > all resources > select all (uncheck cloudshell) then delete and re-run the script again.
+
+================================================================
+
+ VM Specs:
+ 
+- DS2v2 (2vCPU 7GB RAM 64GB Premium SSD). Windows 11 Enterprise
+
+=================================================================
+
+ Notes:
+
+- THIS IS ONLY FOR EDUCATIONAL PURPOSES
+
+- DON'T USE FOR MINING OR ILLEGAL USE
+
+================================================================
+
+ Changelogs:
+
+- 3/2/2022: Improve internet stability when downloading large files.
+
+- 7/2/2022: Added Chocolatey and Chocolatey GUI (software management).
+
+================================================================
